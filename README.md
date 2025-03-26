@@ -22,7 +22,7 @@ Este projeto é uma calculadora de churrasco que estima a quantidade de carne, b
 ### 1️⃣ Instalar as dependências do Backend (Flask)
 
 ```bash
-pip install flask flask-cors
+pip install -r requirements.txt
 ```
 
 ### 2️⃣ Rodar o Servidor Flask
