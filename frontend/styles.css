@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff6f61, #ffcc5c);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #ff5722;
+    outline: none;
+}
+
+.checkbox-group {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    padding: 12px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e64a19;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #333;
+}
+
+#compartilharBtn {
+    margin-top: 15px;
+    background: #28a745;
+}
+
+#compartilharBtn:hover {
+    background: #218838;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Churrasco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 Calculadora de Churrasco</h1>
+        <p>Planeje seu churrasco com estilo!</p>
+
+        <form id="churrasco-form">
+            <label for="tipo">Tipo de Churrasco:</label>
+            <select id="tipo">
+                <option value="completo">Churrasco Completo</option>
+                <option value="hamburguer">Hambúrguer</option>
+                <option value="pao_alho">Pão de Alho</option>
+            </select>
+
+            <label>Tipos de Carne:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" name="carne" value="picanha"> Picanha<br>
+                <input type="checkbox" name="carne" value="frango"> Frango<br>
+                <input type="checkbox" name="carne" value="linguica"> Linguiça<br>
+                <input type="checkbox" name="carne" value="costela"> Costela<br>
+            </div>
+
+            <label for="adultos">Adultos:</label>
+            <input type="number" id="adultos" min="0" placeholder="Quantos adultos?">
+
+            <label for="criancas">Crianças:</label>
+            <input type="number" id="criancas" min="0" placeholder="Quantas crianças?">
+
+            <label for="pagantes">Quantos vão pagar?</label>
+            <input type="number" id="pagantes" min="0" placeholder="Número de pagantes">
+
+            <label for="orcamento">Orçamento Máximo (R$):</label>
+            <input type="number" id="orcamento" min="0" placeholder="Ex.: 300" step="0.01">
+
+            <label>Acompanhamentos:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" name="acompanhamento" value="arroz"> Arroz<br>
+                <input type="checkbox" name="acompanhamento" value="farofa"> Farofa<br>
+                <input type="checkbox" name="acompanhamento" value="vinagrete"> Vinagrete<br>
+                <input type="checkbox" name="acompanhamento" value="pao_alho"> Pão de Alho<br>
+            </div>
+
+            <label for="modo_festa">Modo Festa (20+ pessoas):</label>
+            <input type="checkbox" id="modo_festa">
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="resultado"></div>
+        <button id="compartilharBtn" style="display:none;">Compartilhar Planejamento</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
