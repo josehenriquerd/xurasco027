@@ -2,6 +2,9 @@
 
 Este projeto é uma calculadora de churrasco que estima a quantidade de carne, bebidas e outros itens necessários para um churrasco com base no número de adultos, crianças e tipo de evento.
 
+![screencapture-127-0-0-1-5500-frontend-index-html-2025-03-31-20_15_51](https://github.com/user-attachments/assets/e9a4c042-aa1c-4411-b405-3cd18a0fd162)
+
+
 ## 🚀 Funcionalidades
 
 - Cálculo automático da quantidade de carne por pessoa
@@ -10,6 +13,9 @@ Este projeto é uma calculadora de churrasco que estima a quantidade de carne, b
 - Cadastro de participantes
 - Definição de quem será responsável por comprar os itens
 - Interface interativa e responsiva
+
+![screencapture-127-0-0-1-5500-frontend-index-html-2025-03-31-20_16_46](https://github.com/user-attachments/assets/d8b08f7e-f3d5-476c-b3af-d24989a3c859)
+
 
 ## 🛠 Tecnologias Utilizadas
 
